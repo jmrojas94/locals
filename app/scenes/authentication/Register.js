@@ -57,7 +57,7 @@ export default class Register extends Component {
             onChangeText={(text) => {this.setState({password: text})}}
             value={this.state.password}
             style={styles.textInput}
-            placeholder='Password'
+            placeholder='Confirm Password'
             secureTextEntry={true}
             returnKeyType='go'
           />
@@ -70,6 +70,12 @@ export default class Register extends Component {
           </TouchableOpacity>
         </View>
 
+        <View>
+          <TouchableOpacity style={styles.registerButton}
+          onPress={() => this.props.navigation.goBack()}>
+            <Text style={styles.orRegisterText}>Or Login</Text>
+          </TouchableOpacity>
+        </View>
       </ViewContainer>
     )
   }

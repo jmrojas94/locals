@@ -20,12 +20,12 @@ export const styles = StyleSheet.create({
     backgroundColor: 'black',
     marginLeft: 40,
     marginRight: 40,
-    marginBottom: 40
+    marginBottom: 20
   },
   login: {
     paddingRight: 40,
     paddingLeft: 40,
-    marginBottom: 40
+    marginBottom: 30
   },
   button: {
     borderWidth: 1,

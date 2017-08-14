@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {
+  Button,
   Image,
   StyleSheet,
   Text,

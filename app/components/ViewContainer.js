@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import {
   Text,
   View,
-  StyleSheet
+  StyleSheet,
+  Button
 } from 'react-native'
 
 export default class ViewContainer extends Component {

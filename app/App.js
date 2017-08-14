@@ -8,16 +8,10 @@ import {
 // Components
 import ViewContainer from './components/ViewContainer.js'
 import StatusbarBackground from './components/StatusbarBackground.js'
-
-// Scenes
-import Login from './scenes/authentication/Login.js'
-import Register from './scenes/authentication/Register.js'
-import Profile from './scenes/Profile.js'
+import { Tabs } from './config/navigation/router.js'
 
 export default class App extends Component {
   render() {
-    return (
-      <Profile/>
-    )
+    return <Tabs />
   }
 }
